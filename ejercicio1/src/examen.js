@@ -5,12 +5,15 @@ function Dylan(props)
         <div className="caja1">
             <div className="caja2">
                 <h1>Nombre: {props.nom}</h1>
-                <h2>Tipo: {props.tip}</h2>
-                <p>Origen: {props.origen}    Descripcion: {props.desc}</p> 
+                <h2>Tipo: {props.tip}</h2> 
             </div>
             <div className="caja3">
-                <img className="dib" src={} />
+                <p>Origen: {props.origen}    Descripcion: {props.desc}</p>
             </div>
+            <div className="caja4">
+                <img className="dib" src={props.ilus} />
+            </div>
+
         </div>
     );
 
