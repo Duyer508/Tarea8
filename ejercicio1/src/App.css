@@ -1,21 +1,51 @@
-.titulos{
+
+
+/* .titulos{
   background-color:rgb(191, 253, 255);
   color: crimson;
 }
 .texto{
   background-color: rgb(119, 186, 189);
   color: #282c34;
-}
+} */
 .caja1{
-  margin: 10px;
-  padding: 10px;
-  border: 3px;
-  border-style: dotted;
-  border-color: rgb(53, 174, 196);
-  display: flex;
+  /* nom tip origen desc dibujo   */
+  border: 5px;
+  border-style: dashed;
+  border-color: rgb(0, 15, 63);
+  height: 600px;
+  width: 550px;
+  /* display: flex;
   align-items: flex-end;  
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end; */
+}
+
+
+.caja2{
+ 
+  border: 5px;
+  border-style: dotted;
+  border-color: rgb(38, 154, 231);
+  /* display: flex;
+  align-items: flex-end;  
+  display: flex;
+  align-items: flex-end; */
+}
+
+.caja3{
+ 
+  border: 5px;
+  border-style: dashed;
+  border-color: rgb(89, 151, 243);
+  /* display: flex;
+  align-items: flex-end;  
+  display: flex;
+  align-items: flex-end; */
+}
+.dib{
+  height: 400px;
+  width: 350px;
 }
 
 .App {
